@@ -1,0 +1,240 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Name>personalportfolio</Name>
+    <RootNamespace>personalportfolio</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>fc029840-aeaf-45d6-bd15-208105ebd59a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <DjangoSettingsModule>personalportfolio.settings</DjangoSettingsModule>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Jobs\admin.py" />
+    <Compile Include="Jobs\apps.py" />
+    <Compile Include="Jobs\migrations\__init__.py" />
+    <Compile Include="Jobs\models.py" />
+    <Compile Include="Jobs\tests.py" />
+    <Compile Include="Jobs\views.py" />
+    <Compile Include="Jobs\__init__.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="personalportfolio\__init__.py" />
+    <Compile Include="personalportfolio\settings.py" />
+    <Compile Include="personalportfolio\urls.py" />
+    <Compile Include="personalportfolio\wsgi.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Jobs\templates\Jobs\index.html" />
+    <Content Include="Mentor\Mentor\about.html" />
+    <Content Include="Mentor\Mentor\assets\css\style.css" />
+    <Content Include="Mentor\Mentor\assets\img\about.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\apple-touch-icon.png" />
+    <Content Include="Mentor\Mentor\assets\img\LearningDjango.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\PythonAutomationTesting.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\PythonBasic.png" />
+    <Content Include="Mentor\Mentor\assets\img\PythonOOPS.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\course-1.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\course-2.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\course-3.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\course-details-tab-1.png" />
+    <Content Include="Mentor\Mentor\assets\img\course-details-tab-2.png" />
+    <Content Include="Mentor\Mentor\assets\img\course-details-tab-3.png" />
+    <Content Include="Mentor\Mentor\assets\img\course-details-tab-4.png" />
+    <Content Include="Mentor\Mentor\assets\img\course-details-tab-5.png" />
+    <Content Include="Mentor\Mentor\assets\img\course-details.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\events-1.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\events-2.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\favicon.png" />
+    <Content Include="Mentor\Mentor\assets\img\hero-bg.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\PythonProbSolving.png" />
+    <Content Include="Mentor\Mentor\assets\img\trainers\safranlogo.png" />
+    <Content Include="Mentor\Mentor\assets\img\santoshkumarvagga.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\testimonials\amit.jfif" />
+    <Content Include="Mentor\Mentor\assets\img\testimonials\testimonials-1.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\testimonials\testimonials-2.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\testimonials\testimonials-3.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\testimonials\testimonials-4.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\testimonials\testimonials-5.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\testimonials\wasim.jfif" />
+    <Content Include="Mentor\Mentor\assets\img\trainers\HackerRank_logo.png" />
+    <Content Include="Mentor\Mentor\assets\img\trainers\linkedinlogo.png" />
+    <Content Include="Mentor\Mentor\assets\img\trainers\sorocologo.png" />
+    <Content Include="Mentor\Mentor\assets\img\trainers\tinosys.png" />
+    <Content Include="Mentor\Mentor\assets\img\trainers\trainer-1.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\trainers\trainer-2.jpg" />
+    <Content Include="Mentor\Mentor\assets\img\trainers\trainer-3.jpg" />
+    <Content Include="Mentor\Mentor\assets\js\main.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\animate.css\animate.compat.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\animate.css\animate.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\animate.css\animate.min.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\aos\aos.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\aos\aos.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="Mentor\Mentor\assets\vendor\boxicons\css\animations.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\boxicons\css\boxicons.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\boxicons\css\boxicons.min.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\boxicons\css\transformations.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\boxicons\fonts\boxicons.eot" />
+    <Content Include="Mentor\Mentor\assets\vendor\boxicons\fonts\boxicons.svg" />
+    <Content Include="Mentor\Mentor\assets\vendor\boxicons\fonts\boxicons.ttf" />
+    <Content Include="Mentor\Mentor\assets\vendor\boxicons\fonts\boxicons.woff" />
+    <Content Include="Mentor\Mentor\assets\vendor\boxicons\fonts\boxicons.woff2" />
+    <Content Include="Mentor\Mentor\assets\vendor\counterup\counterup.min.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\icofont\fonts\icofont.woff" />
+    <Content Include="Mentor\Mentor\assets\vendor\icofont\fonts\icofont.woff2" />
+    <Content Include="Mentor\Mentor\assets\vendor\icofont\icofont.min.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\jquery.easing\jquery.easing.min.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\jquery\jquery.min.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\jquery\jquery.min.map" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\assets\ajax-loader.gif" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\assets\owl.carousel.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\assets\owl.carousel.min.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\assets\owl.theme.default.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\assets\owl.theme.default.min.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\assets\owl.theme.green.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\assets\owl.theme.green.min.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\assets\owl.video.play.png" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\LICENSE" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\owl.carousel.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\owl.carousel.min.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\owl.carousel\README.md" />
+    <Content Include="Mentor\Mentor\assets\vendor\php-email-form\changelog.txt" />
+    <Content Include="Mentor\Mentor\assets\vendor\php-email-form\validate.js" />
+    <Content Include="Mentor\Mentor\assets\vendor\remixicon\remixicon.css" />
+    <Content Include="Mentor\Mentor\assets\vendor\remixicon\remixicon.eot" />
+    <Content Include="Mentor\Mentor\assets\vendor\remixicon\remixicon.less" />
+    <Content Include="Mentor\Mentor\assets\vendor\remixicon\remixicon.svg" />
+    <Content Include="Mentor\Mentor\assets\vendor\remixicon\remixicon.symbol.svg" />
+    <Content Include="Mentor\Mentor\assets\vendor\remixicon\remixicon.ttf" />
+    <Content Include="Mentor\Mentor\assets\vendor\remixicon\remixicon.woff" />
+    <Content Include="Mentor\Mentor\assets\vendor\remixicon\remixicon.woff2" />
+    <Content Include="Mentor\Mentor\assets\vendor\waypoints\jquery.waypoints.min.js" />
+    <Content Include="Mentor\Mentor\changelog.txt" />
+    <Content Include="Mentor\Mentor\contact.html" />
+    <Content Include="Mentor\Mentor\course-details.html" />
+    <Content Include="Mentor\Mentor\courses.html" />
+    <Content Include="Mentor\Mentor\events.html" />
+    <Content Include="Mentor\Mentor\forms\contact.php" />
+    <Content Include="Mentor\Mentor\forms\Readme.txt" />
+    <Content Include="Mentor\Mentor\index.html" />
+    <Content Include="Mentor\Mentor\pricing.html" />
+    <Content Include="Mentor\Mentor\Readme.txt" />
+    <Content Include="Mentor\Mentor\trainers.html" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Jobs\" />
+    <Folder Include="Jobs\migrations\" />
+    <Folder Include="Jobs\templates\" />
+    <Folder Include="Jobs\templates\Jobs\" />
+    <Folder Include="Mentor\" />
+    <Folder Include="Mentor\Mentor\" />
+    <Folder Include="Mentor\Mentor\assets\" />
+    <Folder Include="Mentor\Mentor\assets\css\" />
+    <Folder Include="Mentor\Mentor\assets\img\" />
+    <Folder Include="Mentor\Mentor\assets\img\testimonials\" />
+    <Folder Include="Mentor\Mentor\assets\img\trainers\" />
+    <Folder Include="Mentor\Mentor\assets\js\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\animate.css\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\aos\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\bootstrap\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\bootstrap\css\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\bootstrap\js\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\boxicons\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\boxicons\css\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\boxicons\fonts\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\counterup\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\icofont\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\icofont\fonts\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\jquery.easing\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\jquery\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\owl.carousel\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\owl.carousel\assets\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\php-email-form\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\remixicon\" />
+    <Folder Include="Mentor\Mentor\assets\vendor\waypoints\" />
+    <Folder Include="Mentor\Mentor\forms\" />
+    <Folder Include="personalportfolio\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
